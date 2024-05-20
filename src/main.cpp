@@ -53,7 +53,7 @@ void loop() {
     M5.Lcd.printf("%5.2f  %5.2f  %5.2f deg", pitch, roll, yaw);
 
     M5.Lcd.setCursor(0, 175);
-    M5.Lcd.printf("Temperature : %.2f C", temp);
+    M5.Lcd.printf("  Temperature : %.2f C", temp);
 
     delay(10);  
 }
