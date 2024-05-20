@@ -17,7 +17,8 @@ float temp = 0.0F;
 
 void setup() {
     M5.begin(); 
-    M5.Lcd.println("Test de girospocpio");               // Init M5Core. 
+    M5.Lcd.println("Test de girospocpio");
+    M5.Lcd.println("-------------------");                // Init M5Core. 
     M5.IMU.Init();             // Init IMU sensor. 
     M5.Lcd.fillScreen(BLACK);  // Set the screen background color to black.
                              
