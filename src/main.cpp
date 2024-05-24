@@ -23,7 +23,10 @@ void setup() {
     M5.Lcd.setTextColor(
         GREEN,
         BLACK); 
-    M5.Lcd.setTextSize(2);  
+    M5.Lcd.setTextSize(2); 
+    M5.Lcd.println("IMU Test");
+    delay(1000);
+    M5.Lcd.fillScreen(BLACK); 
 }
 
 void loop() {
